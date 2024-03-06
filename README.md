@@ -19,7 +19,7 @@
 -   Cada tag tem um `NOME` e uma função.
 -   Cada tag também possui `ATRIBUTOS` para mudar seu comportamento ou para referencia-la.
 -   A maioria das tags pode receber conteúdos, como: texto e outras tags
--   As tags funcionam de forma similhar aos parênteses. Sempre que abrimos `<NOME>` é preciso fechar `</NOME`.
+-   As tags funcionam de forma similhar aos parênteses. Sempre que abrimos `<NOME>` é preciso fechar `</NOME>`.
 
 -   Exemplos:
 
@@ -69,9 +69,28 @@
 <h4>sub-sub-...-título</h4>
 <h5>sub-sub-...-título</h5>
 <h6>sub-sub-...-título</h6>
+```
 
+-   `<h1>` até o `<h6>` são utilizados para titulos, títulos de seção e subtitulos. O número indica a sua importancia, 1 mais importante e 6 menos importante.
+
+```html
 <p>Parágrafo</p>
+```
+
+-   `<p>` é usado para parágrafos de texto.
+
+```html
 <img src="URL" />
+<!-- Exemplos foto local -->
+<img src="./foto.png" />
+<img src="./src/foto.png" />
+<!-- Exemplos foto na internet -->
+<img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2019/07/urso-panda.jpg" />
+```
+
+-   `<img>` serve para inserir imagens na página, a origem (onde se encontra a imagem) deve ser colocado no valor do atributo `src`. Exemplo: `src="foto.png"`.
+
+```html
 <table border="solid"></table>
 <thead></thead>
 <tr></tr>
@@ -79,12 +98,6 @@
 <tbody></tbody>
 <td></td>
 ```
-
--   `<h1>` até o `<h6>` são utilizados para titulos, títulos de seção e subtitulos. O número indica a sua importancia, 1 mais importante e 6 menos importante.
-
--   `<p>` é usado para parágrafos de texto.
-
--   `<img>` serve para inserir imagens na página, a origem (onde se encontra a imagem) deve ser colocado no valor do atributo `src`. Exemplo: `src="foto.png"`.
 
 -   `<table>` indica o inicio de uma tabela em html, possui um atributo chamado `border` que define o estilo das linhas de borda da tabela. Exemplo: `border="solid"`.
 
@@ -101,3 +114,36 @@
 -   Exemplo de uso de `<h1>`, `<p>` e `<img>`. [clique aqui](texto.html)
 
 -   Exemplo de uso de `<table>`, `<thead>`, `<tbody>`, `<th>`, `<tr>` e `<td>` [clique aqui](tabela.html)
+
+```html
+<a href="">Conteúdo</a>
+<!-- Exemplo de link para páginas locais -->
+<a href="./pag2.html">Link para proxima páginas do seu site</a>
+<!-- Exemplo de link para páginas da internet -->
+<a href="https://www.google.com/maps">Link para o google maps</a>
+```
+
+-   `<a>` serve para linkar diferentes páginas (Seja da internet ou do seu próprio site) a sua página html
+
+```html
+<u>texto</u>
+<i>texto</i>
+<b>texto</b>
+```
+
+-   `<u>` deixa sublinhado o texto que está dentro da tag
+
+-   `<i>` deixa em itálico o texto que está dentro da tag
+
+-   `<b>` deixa em negrito o texto que está dentro da tag
+
+```html
+<div></div>
+<!-- Exemplo seção de um site-->
+<div>
+    <h2>Subtítulo</h2>
+    <p>Texto Texto Texto Texto Texto Texto Texto</p>
+</div>
+```
+
+-   `<div>` define uma divisão ou agrupamento entre as tag
