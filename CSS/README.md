@@ -56,31 +56,31 @@
 - Afeta todas as tags o documento HTML
 - Seu símbolo é `*`
 - Exemplo de uso:
-```css
-    * {
-        margin: 0;
-        padding:0;
-    }
-```
+    ```css
+        * {
+            margin: 0;
+            padding:0;
+        }
+    ```
 #### Seletor por nome da tag
 - Afeta todas as tags o documento HTML do tipo especificado.
 - Exemplo de uso:
-```css
-    img {
-        width: 120px;
-        border:2px solid red;
-    }
-```
+    ```css
+        img {
+            width: 120px;
+            border:2px solid red;
+        }
+    ```
 #### Seletor por id
 - Afeta a tag do documento HTML que possui o id especificado.
 - Seu símbolo antes do nome é `#`
 - Exemplo de uso:
-```css
-    #tituloDaSecao {
-        width: 120px;
-        color: pink;
-    }
-```
+    ```css
+        #tituloDaSecao {
+            width: 120px;
+            color: pink;
+        }
+    ```
 - Para que a tag seja afetada é preciso inserir o id, de acordo com o exemplo abaixo. 
     ```html
         <h2 id="tituloDaSecao"> Título da página </h2>
@@ -93,12 +93,12 @@
 - Afeta todas as tags do documento HTML que possuem a classe especificado.
 - Seu símbolo antes do nome é `.`
 - Exemplo de uso:
-```css
-    .tituloDaSecao {
-        width: 120px;
-        color: pink;
-    }
-```
+    ```css
+        .tituloDaSecao {
+            width: 120px;
+            color: pink;
+        }
+    ```
 - Para que as tags sejam afetadas é preciso inserir a classe, de acordo com o exemplo abaixo. 
     ```html
         <h2 class="tituloDaSecao"> Título da página </h2>
@@ -106,3 +106,19 @@
 - OBSERVAÇÕES:
     - A escrita tem que ser identica!
     - Pode ser usada diversas vezes ao longo do documento HTML.
+
+### Principais propriedades
+
+- width
+- height
+- background
+- background-color
+- border
+- color
+- font-size
+- font-family
+- margin
+- display
+- align-items
+- justify-content
+- flex-direction
