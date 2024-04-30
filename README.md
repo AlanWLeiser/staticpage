@@ -15,11 +15,11 @@
 - Estrutura básica de uma página HTML
 - Função de cada tag da estrutura de uma página HTML
 - Função e uso das seguintes tags
-    - h1 a h6
-    - p
-    - img
-    - table
-    - div
+    - `<h1>` a `<h2>`
+    - `<p>`
+    - `<img>`
+    - `<table>`
+    - `<div>`
 
 #### Pasta com conteúdo estudado até agora sobre CSS
 
